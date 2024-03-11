@@ -5,3 +5,4 @@ for (var i = 0; i < 5; i++)
 {
     Console.WriteLine(i);
 }
+Console.WriteLine(2+2*2);
