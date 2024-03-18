@@ -10,3 +10,15 @@ for (var i = 0; i < 5; i++)
 {
     Console.WriteLine('a'+i);
 }
+
+static int average(List<int> list)
+{
+    int sum = 0;
+    foreach (var i in list)
+    {
+        sum += i;
+    }
+
+    int average = sum / list.Capacity;
+    return average;
+}
