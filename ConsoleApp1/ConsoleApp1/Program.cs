@@ -22,3 +22,8 @@ static int average(List<int> list)
     int average = sum / list.Capacity;
     return average;
 }
+
+static int max(List<int> List)
+{
+    return List.Max();
+}
