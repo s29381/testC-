@@ -11,7 +11,7 @@ for (var i = 0; i < 5; i++)
     Console.WriteLine('a'+i);
 }
 
-static int Srednia(List<int> list)
+static int Avg(List<int> list)
 {
     int sum = 0;
     foreach (var i in list)
